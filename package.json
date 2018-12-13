@@ -1,10 +1,10 @@
 {
   "name": "gestorpaquetesnpmrvc",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Gestion de paquetes - componente Web, boton",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/raulitoyo/GestorPaquetesNPM/issues"
   },
-  "homepage": "https://github.com/raulitoyo/GestorPaquetesNPM#readme"
+  "homepage": "https://github.com/raulitoyo/GestorPaquetesNPM#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }
